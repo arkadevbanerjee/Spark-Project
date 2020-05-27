@@ -11,7 +11,7 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylehome.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" ></script>
     <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -60,27 +60,27 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" style="padding-right: 50px;" id="navbarCollapse">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item">
           <a class="nav-link activated top-menu" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link next-menu-1" href="#learn">Learn</a>
+          <a class="nav-link next-menu-1" href="#learn">Learn <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link next-menu-2" href="#music">Music</a>
+          <a class="nav-link next-menu-2" href="#music">Music <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link next-menu-3" href="#video">Video</a>
+          <a class="nav-link next-menu-3" href="#video">Video <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link next-menu-4" href="#news">News & Sports</a>
+          <a class="nav-link next-menu-4" href="#news">News & Sports <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link next-menu-5" href="#about-us">About Us</a>
+          <a class="nav-link next-menu-5" href="#about-us">About Us <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link next-menu-6" href="#contact">Contact</a>
+          <a class="nav-link next-menu-6" href="#contact">Contact <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
@@ -134,34 +134,29 @@
     </a>
   </div>
 
-	<hr class="featurette-divider" id="learn">
+	<hr class="featurette-divider" id="learn" style="margin-top: 50px;">
   <!-- Marketing messaging and featurettes
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing" style="padding-top: 50px;">
+  <div class="container marketing" style="padding-top: 30px;">
 
     <!-- Three columns of text below the carousel -->
-    <div class="row col-xs-1 text-center">
-      <div class="col-lg-6 col-xs-1 text-center">
-        <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2 style="padding-bottom: 20px;">Notes</h2>
-        <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-6 col-xs-1 text-center">
-        <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2 style="padding-bottom: 20px;">Quiz</h2>
-        <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-
-  </div>
+    <div class="row featurette" >
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p style="margin-top: 20px;"><a class="btn-lg btn-primary" href="index1.html" role="button">Visit Page &raquo;</a></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider" id="music">
 
-    <div class="row featurette" style="padding-top: 50px;">
+    <div class="row featurette" style="padding-top: 20px;">
       <div class="col-md-7">
         <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -174,7 +169,7 @@
 
     <hr class="featurette-divider" id="video">
 
-    <div class="row featurette" style="padding-top: 50px;">
+    <div class="row featurette" style="padding-top: 20px;">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -187,7 +182,7 @@
 
     <hr class="featurette-divider" id="news">
 
-    <div class="row featurette" style="padding-top: 50px;">
+    <div class="row featurette" style="padding-top: 20px;">
       <div class="col-md-7">
         <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Feature.</span></h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -199,30 +194,54 @@
     </div>
 
     <hr class="featurette-divider" id="about-us">
-
-    <hr class="featurette-divider" style="padding-top: 50px;">
-
     <div id="About Us" class="container-fluid" style="padding:0">
           <section>
             <div class="container-fluid">
               <h1 class="text-center text-capitalize pt-5">About us</h1>
               <hr class="w-25 mx-auto pt-5">
-            </div>
-            <div class="row mb-5">
-                <div class="col-lg-6 col-md-6 col-12">
-                       <img src="5.jpg" class="img-fluid">
-                </div>
-                    <div class="col-lg-6 col-md-6 col-12">
-                       <p>Bengal Institute of Technology,a unit of Techno India Group is privileged to present before you one of the oldest cultural festival in Kolkata, Impulse. Our cutural fest has been engraving its name as one of the most participated and successful cultural fiesta since a long time. Impulse is one of the most exquisite and highly appreciated cultural festivals in Kolkata. Every coming year is seeing the development of our cultural fiesta and each year it is emerging out with huge success, with large number of participating colleges from different parts of the city. We come up with endearing, innovative and enriching events every year which students from all over Kolkata participate and attend.
-                        </p>
-                </div>
-            </div>
         </section>
+        <div class="row col-xs-1 text-center">
+      <div class="col-lg-4 col-xs-1 text-center">
+        <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2 style="padding-bottom: 20px;">Arkadev Banerjee</h2>
+        <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 col-xs-1 text-center">
+        <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2 style="padding-bottom: 20px;">Sourashis Paul</h2>
+        <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 col-xs-1 text-center">
+        <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2 style="padding-bottom: 20px;">Aman Kumar Gupta</h2>
+        <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+ 
+  	</div>
+  	<div class="row col-xs-1 text-center" style="justify-content: center; margin-top: 50px;">
+  		<div class="col-lg-4 col-xs-1 text-center">
+        <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2 style="padding-bottom: 20px;">Indrajit Banerjee</h2>
+        <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4 col-xs-1 text-center">
+        <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+        <h2 style="padding-bottom: 20px;">Nilanjan Roy</h2>
+        <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+  </div>
     </div>
+
+
 
     <hr class="featurette-divider" id="contact">
 
-    <div class="row featurette" style="padding-top: 50px;" >
+    <div class="row featurette" style="padding-top: 20px;" >
       <div class="col-md-7">
         <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
