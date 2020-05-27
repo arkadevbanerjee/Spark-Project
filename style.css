@@ -15,7 +15,7 @@ nav a:hover{
 	border-radius: 5px;
 	box-shadow: 5px 5px #888;
 }
-.active
+.activated
 {
 	background: white;
 	color: black!important;
