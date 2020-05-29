@@ -10,9 +10,6 @@ body
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	background-size: 100% 120%;
-    width: 100%;
-    height: 100vh;
 }
 .button
 {
@@ -22,7 +19,7 @@ body
 	color: #FFFFFF;
 	text-align: center;
 	font-size: 20px;
-	width: 250px;
+	width: 230px;
 	height: 120px;
 	transition: all 0.2s;
 	cursor: pointer;
@@ -112,7 +109,6 @@ header a.activated
 	border:2px solid #ffffff;
 	border-radius: 25px;
 	backdrop-filter: blur(20px);
-	margin: 50px;
 }
 .sub
 {
@@ -129,9 +125,7 @@ header a.activated
 {
 	height: 100px;
 	color: rgb(248, 249, 255);
-	padding: 10px;
 }
 ul
 {
-	margin-left:-10px;
 }
