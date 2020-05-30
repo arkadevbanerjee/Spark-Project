@@ -1,3 +1,16 @@
 body {
     background-color: #12375f;
 }
+#level
+{
+	color: #ffffff; 
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	text-align: center;
+	font-family: consolas; 
+	border:2px solid #ffffff;
+	border-radius: 25px;
+	backdrop-filter: blur(20px);
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
