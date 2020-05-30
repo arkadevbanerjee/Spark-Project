@@ -20,16 +20,34 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="video.css">
     <style>
+        
+        body 
+        {
+            background-image: url('videoback.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .level
+        {
+            border:2px solid #ffffff!important;
+            margin-top: 50px!important;
+        }
+
         a {
             margin-right: 20px;
             font-weight: bold;
         }
         
-        h1,
-        h2,
-        p {
+        .footer,h1,h2,p,span {
             font-family: 'Josefin Sans', sans-serif!important;
         }
+        
+        .video{
+            margin-bottom: 25px;
+        }
+
     </style>
 </head>
 
@@ -58,7 +76,26 @@
             </div>
         </nav>
     </header>
-
+    <h1 class="level" style="margin-top: 80px;"> Choose Subject For Videos </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <button class="button" onclick="window.open('mathvideo.html','_self')"><span>MATHEMATICS</span></button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <button class="button" onClick="window.open('sciencevideo.html','_self')"><span>SCIENCE</span></button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <button class="button" onclick="window.open('Englishvideo.html','_self')"><span>ENGLISH</span></button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
+                <button class="button" onclick="window.open('Gkvideo.html','_self')"><span>G.K.</span></button>
+            </div>
+        </div>
+    </div>
+    <div class="footer" style="color: white; margin-top: 80px;">
+        Copyright © 2020 SPARK, Inc. All rights reserved.
+    </div>
 </body>
 
 </html>
